@@ -1,0 +1,388 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+.container1 {
+    width: 80%;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Example maximum width */
+    width: 90%; /* Example width */
+    margin-left: 40%;
+}
+
+
+/* Header Styles */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('path/to/your/background-image.jpg');
+    background-size: cover;
+    opacity: 0.5; /* Adjust opacity as needed */
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 400px; /* Set your desired width */
+    height: auto;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-right: 20px; /* Adjust spacing between navigation items */
+}
+
+.navigation ul li:last-child {
+    margin-right: 0;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #000000; /* Set your desired text color */
+    font-weight: bold; /* Set your desired font weight */
+    transition: color 0.3s ease;
+}
+
+.navigation ul li a:hover {
+    color: #6fa3de; /* Set your desired hover color */
+}
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Example overlay color with transparency */
+    z-index: -1;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('image/banner-image.jpg'); /* Replace with your banner image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 20rem 0;
+    position: relative; /* Add position relative to allow absolute positioning of content */
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    margin: auto;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.practice-areas h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.practice-areas p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #6fa3de;
+}
+
+/* About Section Styles */
+.about {
+    background-image: url('background-image.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    color: #333; /* Change text color to complement the website theme */
+    padding: 5rem 0;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.about-text {
+    width: 65%; /* Adjust the width of the text container */
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-align: start;
+    /*background-color: rgba(147, 248, 252, 0.8); /* Semi-transparent white background */
+    /*border-radius: 10px;*/
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.about-image {
+    padding-right: 5rem;
+    width: 35%; /* Adjust the width of the image container */
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+   /* border-radius: 10px;*/
+}
+
+/* Practice Areas Section Styles */
+.practice-areas {
+    background-color: #ccc;
+    padding: 5rem 0;
+}
+
+.practice-areas .container {
+    text-align: center;
+}
+
+.practice-areas h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.practice-areas .subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.practice-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.practice-buttons button, .practice-buttons .more-btn {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.practice-buttons .more-btn {
+    background-color: #333;
+}
+
+.practice-buttons button:hover, .practice-buttons .more-btn:hover {
+    background-color: #6fa3de;
+}
+
+/* Contact Section Styles */
+.contact {
+    position: relative;
+    background-image: url('image/contact-background.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 5rem 0;
+}
+
+.contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.658); /* Second layer white overlay with opacity */
+    backdrop-filter: blur(7px); /* Blur effect to the second layer */
+}
+
+.contact-content {
+    position: relative;
+    z-index: 2; /* Ensure the content appears above the second layer */
+    text-align: center;
+}
+
+/*.column2{
+    padding: auto;
+}*/
+
+.contact-description {
+    text-align: left;
+
+}
+
+.contact-description h2 {
+    color: #6fa3de;
+}
+.contact-description p b {
+    color: #f3e6c1e7;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact-form {
+    max-width: 1000px;
+    margin: 0 auto;
+    /*padding: 2rem;
+   /* border-radius: 10px;
+    /*background-color: rgba(255, 255, 255, 0.8); /* First layer semi-transparent white background for form */
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #6fa3de;
+}
+
+#responseMessage {
+    margin-top: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #fff;
+    color: #000000;
+    padding: 30px 30px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.column {
+    padding: 0 50px;
+}
+
+.title {
+    
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.links,
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.links li,
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.links a,
+.contact-info a {
+    color: #000;
+    text-decoration: none;
+}
+
+.links a:hover,
+.contact-info a:hover {
+    color: #6fa3de;
+}
+
+.border-top {
+    border-top: 1px solid rgba(192, 181, 150, 0.3);
+    padding-top: 20px;
+}
+
+.copy {
+    font-size: 14px;
+    padding: 10px 0;
+    text-align: center;
+}
