@@ -32,7 +32,7 @@
 
 /* about Page Hero Section Styles */
 .about-hero {
-    background-image: url('image/about-banner.png'); /* Replace 'contact-banner.jpg' with your desired banner image path */
+    background-image: url('about-banner.png'); /* Replace 'contact-banner.jpg' with your desired banner image path */
     background-size: cover;
     background-position: center;
     color: #fff;

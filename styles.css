@@ -91,7 +91,7 @@ body {
 
 /* Hero Section Styles */
 .hero {
-    background-image: url('image/banner-image.jpg'); /* Replace with your banner image */
+    background-image: url('banner-image.jpg'); /* Replace with your banner image */
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -238,7 +238,7 @@ body {
 /* Contact Section Styles */
 .contact {
     position: relative;
-    background-image: url('image/contact-background.jpg'); /* Replace with your background image */
+    background-image: url('contact-background.jpg'); /* Replace with your background image */
     background-size: cover;
     background-position: center;
     color: #fff;

@@ -112,7 +112,7 @@ button[type="submit"]:hover {
 
 /* Contact Page Hero Section Styles */
 .contact-hero {
-    background-image: url('image/contact-banner.jpg'); /* Replace 'contact-banner.jpg' with your desired banner image path */
+    background-image: url('contact-banner.jpg'); /* Replace 'contact-banner.jpg' with your desired banner image path */
     background-size: cover;
     background-position: center;
     color: #fff;

@@ -41,7 +41,7 @@
 
 /* Contact Page Hero Section Styles */
 .service-hero {
-    background-image: url('image/services-banner.png'); /* Replace 'contact-banner.jpg' with your desired banner image path */
+    background-image: url('services-banner.png'); /* Replace 'contact-banner.jpg' with your desired banner image path */
     background-size: cover;
     background-position: center;
     color: #fff;
